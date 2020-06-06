@@ -7,7 +7,7 @@ function MediaCard({title, body, imageUrl}) {
       <h2>{title}</h2>
       <p>{body}</p>
       <br/>
-      <img src = {imageUrl} width="500px" style = {{"borderRadius":10}}/>
+      <img src = {imageUrl} alt="Uni Image" width="500px" style = {{"borderRadius":10}}/>
     </div>
   );
 }
